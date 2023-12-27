@@ -1,0 +1,84 @@
+tw-story {
+  	font-family: 'Verdana';
+  	font-size: 1em;
+	background-size: cover;
+   	background: url(http://risuem-sami.ru/wp-content/uploads/2023/12/bg-digital.jpg) center center fixed no-repeat;
+	background-size: cover;
+  	color: 
+}
+
+
+tw-passage {
+	padding: 20px;/*Отступ 10 пикселей от границы параграфа*/
+	background-color: rgb(0,0,0, 0.8);
+  	max-width: 900px;
+}
+
+
+tw-story[tags~="forest"] {
+   	background: url(http://risuem-sami.ru/wp-content/uploads/2023/12/bg-green.jpg) center center fixed no-repeat;
+	background-size: cover;
+}
+
+tw-story[tags~="stone"] {
+   	background: url(http://risuem-sami.ru/wp-content/uploads/2023/12/bg-gray.jpg) center center fixed no-repeat;
+	background-size: cover;
+}
+
+tw-story[tags~="sand"] {
+   	background: url(http://risuem-sami.ru/wp-content/uploads/2023/12/bg-yellow.jpg) center center fixed no-repeat;
+	background-size: cover;
+}
+
+tw-story[tags~="digital"] {
+   	background: url(http://risuem-sami.ru/wp-content/uploads/2023/12/bg-digital.jpg) center center fixed no-repeat;
+	background-size: cover;
+}
+
+tw-story[tags~="dark"] {
+   	background: url(http://risuem-sami.ru/wp-content/uploads/2023/12/bg-dark.jpg) center center fixed no-repeat;
+	background-size: cover;
+}
+
+tw-story[tags~="ending"] {
+   	background: url(http://risuem-sami.ru/wp-content/uploads/2023/12/bg-ending.jpg) center center fixed no-repeat;
+	background-size: cover;
+}
+
+
+.chat {
+  margin-left: 20px;
+  border: 1px dotted white;
+  padding: 20px;
+  font-size: 0.9em;
+  color: cyan;
+}
+
+
+@media screen and (min-width: 900px) {
+    .pic  {
+      max-width: 60%;
+		}
+  	.img-title {
+      max-width: 60%;
+		}
+}
+
+@media screen and (max-width: 900px) {
+    .pic  {
+      max-width: 100%;
+  	}
+  	.img-title {
+      max-width: 100%;
+  	}
+}
+
+
+a {
+    cursor: pointer;
+    color: #4169e1;
+    font-weight: bold;
+    text-decoration: underline;
+    transition: color .2s ease-in-out;
+}
+
